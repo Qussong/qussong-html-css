@@ -1,0 +1,32 @@
+< 웹 편집기 >
+- 윈도우용 편집기: 노트패드 ++, 에디트 플러스
+- macOS용 편집기: 텍스트메이트, 코다
+
+<VS Code Extensions>
+- Korean Language Pack for Visual Studio Code (한국어패치)
+- live server: 편집기에서 작성한 내용을 VS Code 에서 바로 브라우저로 확인가능
+               우클릭 -> Open with Live Server 클릭 -> 브라우저 open
+
+<html>
+- hyper text mark-up language : 웹에서 자유롭게 오갈 수 있는 웹 문서를 만드는 언어
+- html은 기본적인 구조가 있다.
+
+<!doctype html> : 현재 문서가 html5 언어로 작성한 웹 문서라는 의미
+                  제일 첫 줄에 와야한다.
+<html>~<html> : 웹 문서의 시작과 끝을 나타내는 태그
+                웹 브라우저가 <html>태그를 만나면 </html>까지 소스를 읽어 화면에 표시한다
+<head>~</head> : 웹 브라우저가 웹 문서를 해석하는 데 필요한 정보를 입력하는 부분
+                 웹 브라우저 화면에 보이지 않는다.
+<body>~</body> : 실제로 웹 브라우저 화면에 나타나는 내용
+                 앞으로 우리가 공부할 html 태그는 대부분 이에 들어간다.
+                 웹 브라우저 화면에 나오는 부분
+<meta> tag : 한글로 된 내용을 표시하기 위해서 UTF-8 문자 세트를 사용
+             <meta charset="UTF-8">
+<title>~</title>: 문서 제목을 나타내는 태그
+
+- VS Code에서는 웹문서의 기본구조를 만들어준다.
+- 단, *.html이라고 확장자를 모두 입력해 주었을때만 가능
+- ! + tab = 웹 문서의 기본문서 입력된다.
+- 이때, 언어가 영어(en)로 되어있다. 이를 한글(ko)로 수정해준다.
+- 웹 문서의 제목(title tag) 기본값은 'Document' 이다.
+- 들여쓰기를 해주는 이유는 구분을 잘 해주기 위해서다.
