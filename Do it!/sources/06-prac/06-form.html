@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Qussong's Web site</title>
+</head>
+<body>
+  <form>
+    <fieldset>
+      <label>아이디 : <input type="text"></label><br>
+      <label>비밀번호 : <input type="password"></label><br>
+      <input type="submit" value="로그인">
+      
+      <legend>상품선택</legend>
+      <p><b>주문할 상품을 선택해 주세요.</b></p>
+      <ul>
+        <li>
+          <label><input type="checkbox" value="s_3">선물용 3kg</label>
+          <input type="number">개
+        </li>
+        <li>
+          <label><input type="checkbox" value="s_5">선물용 5kg</label>
+          <input type="number">개
+        </li>
+        <li>
+          <label><input type="checkbox" value="f_3">가정용 3kg</label>
+          <input type="number">개
+        </li>
+        <li>
+          <input type="checkbox" id="user_id">
+          <label for="user-id">가정용 5kg</label>
+          <input type="number">개
+        </li>
+      </ul>
+      <p><b>포장 선택</b></p>
+      <li><label><input type="radio" name="gift" value="yes">선물 포장</label></li>
+      <li><label><input type="radio" name="gift" value="no">선물 포장 안함</label></li>
+      </ul>
+    </fieldset>
+    <fieldset>
+      <legend>배송정보</legend>
+      <ul>
+        <li>
+          <label for="user_name">이름</label>
+          <input type="text" id="user_name">
+        </li>
+        <li>
+          <label for="adress">배송 주소</label>
+          <input type="text" id="adress">
+        </li>
+        <li>
+          <label for="email">메일 주소</label>
+          <input type="email" id="email">
+        </li>
+        <li>
+          <label for="tel">연락처</label>
+          <input type="tel" id="tel">
+        </li>
+      </ul>
+    </fieldset>
+  </form>
+</body>
+</html>
