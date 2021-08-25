@@ -1,0 +1,39 @@
+<< style sheet 란? >>
+
+내용과 디자인의 분리를 통해 필요한 부분을 찾기 더 편하게 해준다
+
+stylesheet를 사용하는 이유는 : 
+  - 반응형 웹 디자인
+  - 여러가지 기기에서 탄력적으로 반응하는 웹 사이트를 만들기 위해
+  - 현재 웹 사이트에 접근 가능한 기기가 아주 다양해졌다
+  - 여러가지 기기에서 웹사이트에 접근했을때 해당 웹 기기에 최적화된 
+    웹 사이트를 보여주기 위해 css를 통해 꾸며준다
+
+stylesheet :
+  - 내부 stylesheet 와 외부 stylesheet가 있다.
+  - 외부 stylesheet의 경우 link로 연결해서 사용한다.
+  - 여러 개의 스타일 정보를 한곳에 모아 놓은 것
+  ex)
+    h1 {
+      color: blue
+    }
+    h1 : 선택자(selector) : 스타일을 어디에 적용할 것인지 나타낸다
+    color : 속성 : 
+    blue : 속성 값
+
+* VS Code 에서 ctrl + '/' 을 해주면 알아서 선택해준 영역이 주석처리가 된다
+
+내부 stylesheet :
+  - <style>~</style>로 묶어준다
+  - stylesheet에 아무것도 저장이 되지 않은 초기의 상태를 '브라우저 기본 스타일'이라고 한다.
+
+외부 stylesheet : 
+  - style tag 안에 있는 내용을 잘라내서 외부 파일에 붙여넣어준다/ 작성해준다.
+  - 해당 파일의 확장자는 *.css로 설정해준다.
+  - html 파일의 head tag안에 link tag를 넣어준다
+    ex)
+    <link href="css/ex.css" rel="stylesheet">
+    -> 외부에 css 라는 폴더 안에 있는 ex.css 파일을 연결한다. 해당 파일은 stylesheet다
+    -> rel = relation
+  - 외부 stylesheet를 사용하는 이유는 범용성을 위해서이다. 나중에 해당 스타일을 그대로 가져오고자 할때 
+    link tag를 통해 간단하게 가져올 수 있다.

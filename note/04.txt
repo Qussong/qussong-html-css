@@ -1,4 +1,4 @@
-<!-- 각종 tag와 table 만드는 법 -->
+<< 각종 tag와 table 만드는 법 >>
 
 - <h1>~<h6>: 웹문서에서 제목을 나타낼때 6단계로 나타낼 수 있다.
   숫자가 작을수록 텍스트의 크기가 커진다.
@@ -9,7 +9,7 @@
   strong의 경우 중요함을 뜻하고 bold의 경우 그냥 굵은 글씨체이다.
 - <ol>~</ol>: ordered list, 순서가 있는 목록을 의미한다.
   해당 태그로 묶어주면 <li>~</li>앞에 숫자로 순서가 생긴다.
-   <ol type="a">를 해주면 1,2,3...가 아닌 a,b,c...의 순서로 작성된다.
+  <ol type="a">를 해주면 1,2,3...가 아닌 a,b,c...의 순서로 작성된다.
 -<ul>~</ul>: unordered list, 순서가 없는 목록을 의미한다.
   각 리스트의 앞에 bullet이 생긴다.
 
@@ -27,3 +27,13 @@
   <th> tag는 자동 bold 처리가 되고 중앙에 배치된다.
 4. 표의 내용은 입력되어 있으나 테두리가 생성되어 있지 않는다.
   style sheet를 활용해줘야한다.
+
+< Table 관련 style sheet>
+table {
+      border: 1px solid violet;
+      border-collapse: collapse; -> default 값이 separate 이다. 
+    }
+td, th {
+      border: 1px solid purple;
+      padding: 10px; -> 셀 내부에 글자와 칸의 간격을 준다.
+    }

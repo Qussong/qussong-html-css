@@ -18,20 +18,19 @@
       <ul>
         <li>
           <label><input type="checkbox" value="s_3">선물용 3kg</label>
-          <input type="number">개
+          <input type="number" max="5" min="0">개
         </li>
         <li>
           <label><input type="checkbox" value="s_5">선물용 5kg</label>
-          <input type="number">개
+          <input type="number" max="5" min="0">개
         </li>
         <li>
           <label><input type="checkbox" value="f_3">가정용 3kg</label>
-          <input type="number">개
-        </li>
+          <input type="range" max="5" min="0">개
         <li>
           <input type="checkbox" id="user_id">
           <label for="user-id">가정용 5kg</label>
-          <input type="number">개
+          <input type="range" max="5" min="0">개
         </li>
       </ul>
       <p><b>포장 선택</b></p>
@@ -43,7 +42,7 @@
       <legend>배송정보</legend>
       <ul>
         <li>
-          <label for="user_name">이름</label>
+          <label for="user_name" autofocus>이름</label>
           <input type="text" id="user_name">
         </li>
         <li>
