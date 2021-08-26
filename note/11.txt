@@ -1,0 +1,31 @@
+<< box 모델을 이용해서 웹 문서의 layout 만들기 >>
+
+- display: inline-block 
+    block level 요소를 inline level 요소로 바꿔 가로로 배치하는 법
+
+- float:
+    선택자로 선택한 요소를 떠 있게 만드는 속성
+    float은 계속 다르 요소에 영향을 주기에 어느 순간 부터 영향을 안주도록 설정을 해줘야 한다
+    ex) float을 사용하면 떠 있기에 아래 요소를 가리게 된다
+  
+- clear:
+    해당 선택자가 float에 영향을 안받도록 해준다
+
+
+- position:
+    웹 요소가 웹 문서 안에서 어느 위치에 놓이는지 설정해주는 속성
+    default 값은 static
+    - static : 소스 작성 순서대로 배치
+    - relative : 
+      소스 작성 순서대로 배치 & 위치값 지정 가능(top,bottom,right,left)
+      위치 값을 사용하게 되면 원래 표시되어야 할 위치에서 positon 설정만큼 이동하게 된다.
+    - fixed : 
+      위치값 지정 & 고정
+      화면이 줄어들거나 스크롤이 내려간다고 하여도 해당 위치를 유지한다
+      ex) 광고 등에 사용
+    - absolute : 
+      소스 위치와 상관없이 위치값 지정
+      relative의 경우 기준 위치가 해당 요소가 원래 위치되었어야 할 위치이다
+      absolute의 경우 기준 위치가 상위 요소나 부모요소에서 position: relative에 의한 위치요소이다.
+      absolust가 제대로 적용이 되기위해선 relative가 반드시 있어야한다.
+      
