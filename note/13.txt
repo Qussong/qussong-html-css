@@ -1,0 +1,38 @@
+<< 그라데이션 효과 >>
+
+- 2가지 이상의 색상이 자연스럽게 연결되면서 표현됨을 의미한다
+- 선형 그라데이션 : 선형적으로 색상이 변하는 것
+- 원형 그라데이션 : 한 지점에서 동심원을 그리면서 색상이 변하는 것
+
+< 선형 그라데이션 >
+- background 속성에 linear-gradient 값을 넣어준다
+  ex) background: linear-gradient(방향값 지정)
+
+- 방향값 지정 방법:
+    1. to 방향
+      ex) background: linear-gradient(to bottom, white, blue);
+    2. 각도
+      - 도착지점의 각도를 적어줘야한다.
+      ex) background: linear-gradient(45deg, white, blue); : 왼쪽 아래 white, 오른쪽 위 blue
+
+- 색상의 배치 정도 조정하기 : 
+    색상값은 두가지 이상 넣을 수 있다.
+    ex) backgroun: linear-gradient(to bottom, white 30%, skyblue 60%, blue);
+        -> 위에서부터 white 30% sktblue 60% blue 10% 를 차지함을 의미한다
+
+< 원형 그라데이션 >
+- background 속성에 radiar-gradient를 넣어준다
+
+- 원형 그라데이션은 2가지 형태가 있다.
+  1. 정원 
+    ex) background-gradient(circle at 20% 20%, white, yellow, red)
+      -> 원점이 왼쪽 위 모서리이기에 왼쪽 위에서부터 x, y 방향으로 20% 만큼씩 이동한 중심에서 시작한다
+  2. 타원
+    ex) background-gradient(white, yellow, red)
+      -> 위치는 기본 값이 center
+
+- 원형 그라데이션에서 사용할 수 있는 크기 값
+    1. closest-side : 가장 가까운 측면
+    2. closest-corner : 가장 가까운 꼭짓점
+    3. farthest-side : 가장 먼 측면
+    4. farthest-corner : 가장 먼 꼭짓점
