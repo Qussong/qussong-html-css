@@ -1,0 +1,33 @@
+<< CSS로 웹문서 꾸미기 >>
+
+< 배경색과 배경 범위 지정하기 >
+- background-color : 
+    배경색을 꾸며주는 속성
+< 배경 이미지 지정하기 >
+- backgroun-image :
+    배경 이미지 지정해주는 속성
+    url을 사용해준다
+      ex) background-image:url('이미지 주소 값')
+    작은 이미지 라고 해도 가득 차게 반복적으로 표시된다 
+- backgroun-repeat
+    해당 속성을 통해서 반복되는 패턴을 바꿔줄 수 있다.
+    backgroun-repeat: no-repeat 를 해주면 한번만 표시된다
+
+- background-position :
+    배경 이미지의 위치를 지정해 줄 수 있다.
+
+- background-attachment : 
+    배경 이미지를 항상 그 위치에 고정 시키고자 할때 사용한다
+    box-model의 position 속성에서 fixed와 유사하다
+
+★ background :
+    background-image, repeat, position, attachmnt 를 한번에 입력 해 줄 수 있다.
+    ex) background: url('이미지 주소 값') no-repeat top right fixed;
+    속성의 값이 다 다르기 때문에 순서는 상관이 없다
+
+- background-size :
+    px, % 값을 통해서 배경 이미지를 조정할 수 있다.
+    이미지가 들어가는 공간과 배경 이미지의 크기가 다를 경우 사용해준다.
+    값을 하나만 주면 해당 값을 width(너비)값으로 사용하고 높이는 원래 이미지의 비율에 맞춰 자동으로 지정된다
+     ex) backgroun-size: 200px;
+    % 값의 경우 이미지가 아닌 배경의 크기를 기준으로 사이즈가 정해진다
