@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <style>
+    /* #container1 p {
+      color: red;
+      font-size: 2em;
+      font-weight: 700;
+    } */
+    #container1 p::after {
+      content: "new";
+      font-size: small;
+      color: white;
+      border: 1px red solid;
+      padding: 1px;
+      margin: 2px;
+      background-color: red;
+    }
+    #container1 > p::before {
+      content: "time slae~!!";
+      font-size: small;
+      color: white;
+      border: 1px green solid;
+      padding: 1px;
+      margin: 2px;
+      background-color: green;
+    }
+    #container2 > p::before {
+      content: "time slae~!!";
+      font-size: small;
+      color: white;
+      border: 1px orange solid;
+      padding: 1px;
+      margin: 2px;
+      background-color: orange;
+    }
+  </style>
+</head>
+<body>
+  <div id="container1">
+    <p>Hi~!</p> 
+    <h1>Hello~!</h1>
+    <div id="container2">
+      <p>Hello World~!</p>
+    </div>
+  </div>
+</body>
+</html>
