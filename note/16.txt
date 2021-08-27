@@ -1,0 +1,35 @@
+*19강
+<< CSS 트랜지션 과 애니메이션 >> : 웹 문서에 애니메이션 효과를 넣을 수 있다
+
+< 트랜지션 > :
+  CSS의 속성이 변할 때 시간에 따라 천천히 바뀌도록 하여 애니메이션과 같은 효과를 주는 것
+  transition-property : 
+    - 애니메이션 효과를 주고자하는 속성들을 넣어준다.
+    - 하나하나 다 넣어주기 힘들면 all 이라고 적어줘도 된다
+  
+  transition-duration :
+    - transition-property에서 지정해준 속성들의 시간을 설정해준다
+    - 하나하나 다 지정해 줄 수 있다.
+    - 값을 하나만 주면 모든 효과가 동일한 시간에 걸쳐 애니메이션 효과를 보인다.
+    - 단위는 's(sec, 초)'
+  
+  transition-delay : 
+    - 시간 텀을 두고 muouse hover가 동작하게 하는 속성
+    - 단위 's(sec, 초)'
+
+  transition-timing-function :
+    - 사용 가능한 속성 값으로는...
+      ease, linear, ease-in, ease-out, ease-in-out
+  
+  ex)
+  div {
+    width: 100px;
+    height: 100px;
+    border: 1px solid blue;
+    transition-property: width, height;
+    transition-duration: 2s, 1s
+  }
+  div:hover {
+    width: 200px;
+    height: 300px;
+  }
