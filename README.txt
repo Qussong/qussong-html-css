@@ -4,7 +4,7 @@
 - ☆ git commit -m "name" : history 생성
 - git remote - v : git 연결상태 확인
 - ☆ git push origin mater : github로 올리기 
-- git push origin 브랜치명 : 다른 사람이 원격 저장소(Remote repository)에 업데이트한 파일이 있을 때,
+- git pull origin 브랜치명 : 다른 사람이 원격 저장소(Remote repository)에 업데이트한 파일이 있을 때,
   원격 저장소와 내 저장소의 상태를 동일하게 만들기 위해 사용.
   동일한 상태로 만들지 않으면 git push가 적용되지 않는다.
 
