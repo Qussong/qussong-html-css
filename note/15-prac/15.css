@@ -1,0 +1,71 @@
+h1 {
+  margin: 10px 10px 10px 100px;
+  color: purple;
+  width: 365px;
+  height: 50px;
+  border: 10px red groove;
+  text-align: center;
+}
+h1:hover {
+  color: pink;
+}
+div {
+  border: 2px solid black;
+  width: 384px;
+  margin: 10px 10px 10px 100px;
+}
+div p {
+  text-align: center;
+  color: blue;
+  font-weight: 700;
+  margin: 2px;
+  border: 1px deepskyblue solid;
+  background-color: greenyellow;
+}
+div div {
+  border: 2px solid black;
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  display: inline-block;
+  background: linear-gradient(to right, red, orange, yellow, pink, grey);
+}
+#transx:hover {
+  transform: translateX(20px);
+}
+#transy:hover {
+  transform: translateY(20px);
+}
+#transz:hover {
+  transform: translate(20px, 20px);
+}
+#rot {
+  perspective: 500px
+}
+#rotx:hover {
+  transform: rotateX(55deg);
+}
+#roty:hover {
+  transform: rotateY(55deg);
+}
+#rotz:hover {
+  transform: rotateZ(55deg);
+}
+#skewx:hover {
+  transform: skewX(-35deg)
+}
+#skewy:hover {
+  transform: skewY(-15deg)
+}
+#skewxy:hover {
+  transform: skew(-35deg, -15DEG)
+}
+#scalex:hover {
+  transform: scaleX(2);
+}
+#scaley:hover {
+  transform: scaleY(2);
+}
+#scalexy:hover {
+  transform: scale(2, 2);
+}
