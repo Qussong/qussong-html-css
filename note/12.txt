@@ -1,14 +1,18 @@
 << CSS로 웹문서 꾸미기 >>
 
 < 배경색과 배경 범위 지정하기 >
+
 - background-color : 
     배경색을 꾸며주는 속성
+
 < 배경 이미지 지정하기 >
+
 - backgroun-image :
     배경 이미지 지정해주는 속성
     url을 사용해준다
       ex) background-image:url('이미지 주소 값')
     작은 이미지 라고 해도 가득 차게 반복적으로 표시된다 
+
 - backgroun-repeat
     해당 속성을 통해서 반복되는 패턴을 바꿔줄 수 있다.
     backgroun-repeat: no-repeat 를 해주면 한번만 표시된다
