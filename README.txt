@@ -1,3 +1,5 @@
+< Githun upload >
+
 - git init : 제일 처음에만
 - ☆ git add . : 모든 파일을 git에 올리기 위한 사전작업
 - git status : 현 상태 확인
@@ -9,3 +11,6 @@
   동일한 상태로 만들지 않으면 git push가 적용되지 않는다.
 
 제일 처음 이후론 수정된 파일을 올리기 위해선 별표 표시만 반복하면 됨
+
+< Contents >
+- front-end 기반을 쌓기 위한 html, css 공부내용 정리 repository

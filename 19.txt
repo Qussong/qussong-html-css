@@ -1,0 +1,21 @@
+22강
+<< CSS Grid Layout >>
+
+< CSS 그리드 레이아웃 >
+- 플렉스 박스 레이아웃은 '주축'과 '교차축'개념이 있지만,
+  CSS 그리드 레이아웃은 양쪽 방향 모두 사용
+- 플렉스 박스 레이아웃은 1차원, CSS 그리드 레이아웃은 2차원이라고도 함
+- 줄(row)과 칼럼(column)으로 화면을 구성
+- '줄 간격'과 '칼럼 간격'으로 줄(row gap)과 칼럼(column gap) 사이의 여백을 조절한다.
+
+- display:grid;
+  - CSS 그리드 레이아웃을 적용해줄 때도 container로 묶어줘야 한다.
+  - 부모객체에 display 속성을 넣어줌으로써 컨테이너로 만든다.
+
+- grid-template-colums / grid-template-rows
+  - 해당 속성을 통해 줄, 칼럼, 크기를 조절한다.
+  ex)
+    grid-template-column: 200px 200px 200px;
+    grid-template-rows: 100px;
+    -> 너비 200px인 칼럼 3개와 높이 100px인 줄이 생성된다.
+
